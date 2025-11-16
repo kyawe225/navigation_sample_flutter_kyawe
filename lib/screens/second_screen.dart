@@ -36,7 +36,6 @@ class SecondScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/first");
                 },
-                child: Text("Go to First Screen"),
                 style: ButtonStyle(
                   iconColor: WidgetStateProperty.all(
                     Theme.of(context).colorScheme.onPrimary,
@@ -48,6 +47,7 @@ class SecondScreen extends StatelessWidget {
                     Theme.of(context).colorScheme.onPrimary,
                   ),
                 ),
+                child: Text("Go to First Screen"),
               ),
             ],
           ),
